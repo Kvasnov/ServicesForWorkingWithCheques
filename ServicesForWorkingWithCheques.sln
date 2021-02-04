@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServicesForWorkingWithCheques.ChequeWatcherWindowsService", "ServicesForWorkingWithCheques.ChequeWatcherWindowsService\ServicesForWorkingWithCheques.ChequeWatcherWindowsService.csproj", "{A031D335-93B1-4D93-B549-D6C15DD570B5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{67D623E3-B3CE-407B-AD40-C10BE9BFF5DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServicesForWorkingWithCheques.Domain.Core", "ServicesForWorkingWithCheques.Domain.Core\ServicesForWorkingWithCheques.Domain.Core.csproj", "{07EE7C67-6733-451C-B45B-6C5AED17040D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServicesForWorkingWithCheques.ChequeService", "ServicesForWorkingWithCheques.ChequeService\ServicesForWorkingWithCheques.ChequeService.csproj", "{4BFA522D-6B56-4097-864B-15A2510F4712}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A031D335-93B1-4D93-B549-D6C15DD570B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A031D335-93B1-4D93-B549-D6C15DD570B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A031D335-93B1-4D93-B549-D6C15DD570B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A031D335-93B1-4D93-B549-D6C15DD570B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07EE7C67-6733-451C-B45B-6C5AED17040D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07EE7C67-6733-451C-B45B-6C5AED17040D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07EE7C67-6733-451C-B45B-6C5AED17040D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07EE7C67-6733-451C-B45B-6C5AED17040D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BFA522D-6B56-4097-864B-15A2510F4712}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BFA522D-6B56-4097-864B-15A2510F4712}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BFA522D-6B56-4097-864B-15A2510F4712}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BFA522D-6B56-4097-864B-15A2510F4712}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{07EE7C67-6733-451C-B45B-6C5AED17040D} = {67D623E3-B3CE-407B-AD40-C10BE9BFF5DA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AFD7C7D4-647A-4F60-95DD-E3A77A5A66CA}
+	EndGlobalSection
+EndGlobal

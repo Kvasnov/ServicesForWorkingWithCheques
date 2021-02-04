@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="b5b4b6e5-10ea-47ad-a057-bef3ba7eb718" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://desktop-ffpm5mn/ChequeService/ChequeService.svc?wsdl" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ChequeService.xsd" MetadataType="Schema" ID="74d254bc-bfe7-48a0-9e87-d077e2642c82" SourceId="1" SourceUrl="http://desktop-ffpm5mn/ChequeService/ChequeService.svc?xsd=xsd1" />
+    <MetadataFile FileName="ChequeService1.xsd" MetadataType="Schema" ID="6839d928-b2d3-492d-b82b-f91c0cdbb438" SourceId="1" SourceUrl="http://desktop-ffpm5mn/ChequeService/ChequeService.svc?xsd=xsd3" />
+    <MetadataFile FileName="ChequeService2.xsd" MetadataType="Schema" ID="9cd9d6aa-0444-4832-94f8-6a92fe790b9d" SourceId="1" SourceUrl="http://desktop-ffpm5mn/ChequeService/ChequeService.svc?xsd=xsd2" />
+    <MetadataFile FileName="ChequeService.wsdl" MetadataType="Wsdl" ID="f4385d55-29ae-4a57-9367-cf3ed2524527" SourceId="1" SourceUrl="http://desktop-ffpm5mn/ChequeService/ChequeService.svc?wsdl" />
+    <MetadataFile FileName="ChequeService3.xsd" MetadataType="Schema" ID="18744ffc-ed6f-4b61-a275-fa08f32d2d25" SourceId="1" SourceUrl="http://desktop-ffpm5mn/ChequeService/ChequeService.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
